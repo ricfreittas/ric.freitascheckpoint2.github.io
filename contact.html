@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Petrolina</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contato</a></li>
+        </ul>
+    </header>
+
+    
+        
+        <div class="form">
+            
+            <form action="e"method="post">
+                <h2>Fale conosco</h2>
+                <div>
+                    <label for="nome">Nome*</label><br>
+                    <input type="text" name="nome" id="nome" value="" maxlength="100">
+                </div>
+               
+             <div>
+                <label for="email">Email*</label><br>
+                 <input type="email" name="email" id="email">
+             </div>
+             <div>
+                 <label for="tel">Telefone:</label><br>
+                 <input type="number" name="tel" id="tel" value="">
+             </div>
+             <div>
+                 <label for="data">Data de Nascimento</label><br>
+                 <input type="date" name="data" id="data">
+             </div>
+
+             <div>
+                 <h2>É maior de idade?</h2><br>
+                <label for="maior">Sim</label>
+                <input type="radio" name="maior" id="maior" checked>
+                
+                <label for="menor">Não</label>
+                <input type="radio">
+             </div>
+
+             <div>
+             <h2>Pontos para Conhecer:</h2>
+             <select name="OqueFazer" id="OqueFazer">
+                <option value="1">Bodódromo</option>
+                <option value="2">Ilha do Rodeador</option>
+                <option value="3">Orla de Petrolina</option>
+                <option value="4">Ilha do Rodeador</option>
+
+            </select>
+            </div>
+
+            <div>
+                <h2>Quais seus interesses na cidade:</h2>
+                <label for="visita">Visitar</label>
+                <input type="checkbox" name="visita">
+
+                <label for="residi">Residir</label>
+                <input type="checkbox" name="visita">
+
+                <label for="estuda">Estudar</label>
+                <input type="checkbox" name="visita">
+            </div>
+
+            <div>
+                <h2>Dúvidas ?</h2>
+                <label for="coméntatio"></label>
+                <textarea name="coment" id="comentario" cols="30" rows="10"></textarea>
+            </div>
+        
+            <button type="submit">Enviar</button>
+            <button type="reset">Cancelar</button>
+            </form>
+        
+        </div>
+    
+
+    
+</body>
+</html> 

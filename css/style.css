@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://vemvoar.voeazul.com.br/wp-content/uploads/2021/06/petrolina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    height: auto 15px;
+    background-color: cadetblue;;
+}
+
+.menu {
+    list-style:none;
+    background-color: #e2efff;
+    text-align:left;
+    box-shadow: 2px 2px 2px; 
+
+}
+
+.menu li {
+    display: inline;
+    
+}
+
+.menu li a {
+    color: #5b5e5db5;
+    text-decoration: none;
+    padding: 25px;
+    display: inline-block;
+    font-family: 'Montserrat Alternates', sans-serif;
+    transition: background .5s;
+    
+}
+
+.menu li a:hover {
+    background-color: #7f8386;
+    color: white;
+    
+}
+
+
+.titulo {
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    background-position: center;
+    font-size: 30px;
+    text-align: center;
+    color: #1d1d1f;
+}
+
+.descricao {
+    text-align: center;
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif;
+    color: #515154;
+
+}
+.video {
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.texto2 {
+    background-color: cadetblue;
+    text-align: center;
+    font: 1.5em 'Montserrat', sans-serif;
+    text-decoration: burlywood;
+}
+
+.curiosidades {
+    background-color: cadetblue;
+    text-align: center;
+    font: 1.0em 'Montserrat', sans-serif;
+    text-decoration: burlywood;
+} 
+
+#redes {
+    text-align: center;
+    height: 32px;
+    background-color: cadetblue;
+}
+
+.form {
+    text-align: center;
+    background-color: #f5f5f7;
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+form label {
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+button {
+    border-radius: 10px;
+    background-color: #7f8386;
+    color: white;
+}
